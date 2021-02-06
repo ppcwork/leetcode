@@ -10,17 +10,21 @@ var plusOne = function(digits) {
         
             if(sum===10){
                 digits[i]=0;
-                    if(i===0){ //to add the new 1 at the beginning of the array
+                    /*if(i===0){ //to add the new 1 at the beginning of the array
                         digits.unshift(1);  
-                    }
+                    }*/
                 
             }else{
                 digits[i]=sum;
                 return digits;
                 }
   }
-                console.log("i "+ i)
-        return digits;
+                //console.log("i "+ i)
+        if(sum===10){
+            digits.unshift(1);  
+
+        }
+            return digits;
 };
     
     
