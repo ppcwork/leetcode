@@ -2,7 +2,9 @@
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function(digits) {
+    let digits2
+//var plusOne =  function plusOneFunction (digits) { 
+    digits2 =  function (digits) { 
     let sum
     let i
     for(i=digits.length-1; i>=0; i--){ 
@@ -19,15 +21,36 @@ var plusOne = function(digits) {
                 return digits;
                 }
   }
-                //console.log("i "+ i)
+                console.log("i "+ i)
         if(sum===10){
             digits.unshift(1);  
 
         }
             return digits;
-};
+
+
+}([4,5,6]) 
+
+    let arr2=[1,2,3,4];
+    //digits2= plusOne(arr2);
+    console.log("result " + digits2);
+    arr2=[2,9];
+    //digits2= plusOne(arr2);
+    console.log("result " + digits2);
+    arr2=[1,9,9];
+    //digits2= plusOneFunction(arr2);
+    console.log("result " + digits2);
     
     
+    
+    
+    
+    
+    
+    
+    
+    console.log("done")
+
     
     
     
