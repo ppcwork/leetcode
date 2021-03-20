@@ -32,15 +32,4 @@ var runningSum = function(nums) {
     }
     return output
 };
-
-let nums = [1, 2, 3, 4]
-let result = runningSum(nums)
-console.log("nums: " + nums + " result: " + result)
-
-nums = [1, 1, 1, 1, 1]
-result = runningSum(nums)
-console.log("nums: " + nums + " result: " + result)
-
-nums = [3, 1, 2, 10, 1]
-result = runningSum(nums)
-console.log("nums: " + nums + " result: " + result)
+export {runningSum}
