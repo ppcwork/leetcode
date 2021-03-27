@@ -5,7 +5,10 @@
   "description": "",
   "main": "running_sum_of_1d_array.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules /usr/local/bin/jest"
+  },
+  "jest": {
+    "testMatch": ["**/*.jest.js"]
   },
   "keywords": [],
   "author": "",
