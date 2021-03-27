@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "running_sum_of_1d_array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "running_sum_of_1d_array.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules /usr/local/bin/jest"
+  },
+  "jest": {
+    "testMatch": ["**/*.jest.js"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
