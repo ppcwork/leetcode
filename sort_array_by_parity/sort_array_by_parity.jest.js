@@ -8,3 +8,6 @@ test("test 2", ()=>{
 test("test 3", ()=>{
     expect(sortArrayByParity([11, 11, 21, 4])).toEqual([4,11,11,21])
 })
+test("test 4", ()=>{
+    expect(sortArrayByParity([11, 11, 21, 4])).toEqual([21,10,11,21])
+})
